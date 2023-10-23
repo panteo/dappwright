@@ -4,6 +4,7 @@ import {
   addNetwork,
   addToken,
   approve,
+  approveSpending,
   confirmTransaction,
   createAccount,
   deleteAccount,
@@ -48,6 +49,7 @@ export class MetaMaskWallet extends Wallet {
   addNetwork = addNetwork(this.page);
   addToken = addToken(this.page);
   approve = approve(this.page);
+  approveSpending = approveSpending(this.page);
   createAccount = createAccount(this.page);
   confirmNetworkSwitch = confirmNetworkSwitch(this.page);
   confirmTransaction = confirmTransaction(this.page);

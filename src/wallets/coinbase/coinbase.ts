@@ -43,6 +43,7 @@ export class CoinbaseWallet extends Wallet {
   addNetwork = addNetwork(this.page);
   addToken = addToken;
   approve = approve(this.page);
+  approveSpending = confirmTransaction(this.page);
   createAccount = createAccount(this.page);
   confirmNetworkSwitch = confirmNetworkSwitch;
   confirmTransaction = confirmTransaction(this.page);

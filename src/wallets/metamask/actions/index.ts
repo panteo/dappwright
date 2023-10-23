@@ -1,6 +1,7 @@
 export * from './addNetwork';
 export * from './addToken';
 export * from './approve';
+export * from './approveSpending';
 export * from './confirmTransaction';
 export * from './createAccount';
 export * from './deleteAccount';
