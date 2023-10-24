@@ -27,6 +27,7 @@ export default abstract class Wallet implements Dappwright {
   abstract addNetwork: (options: AddNetwork) => Promise<void>;
   abstract addToken: (options: AddToken) => Promise<void>;
   abstract approve: () => Promise<void>;
+  abstract approveSpending: () => Promise<void>;
   abstract createAccount: () => Promise<void>;
   abstract confirmNetworkSwitch: () => Promise<void>;
   abstract confirmTransaction: (options?: TransactionOptions) => Promise<void>;

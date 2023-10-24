@@ -47,6 +47,7 @@ export type Dappwright = {
   addNetwork: (options: AddNetwork) => Promise<void>;
   addToken: (options: AddToken) => Promise<void>;
   approve: () => Promise<void>;
+  approveSpending: () => Promise<void>;
   confirmNetworkSwitch: () => Promise<void>;
   confirmTransaction: (options?: TransactionOptions) => Promise<void>;
   createAccount: () => Promise<void>;
